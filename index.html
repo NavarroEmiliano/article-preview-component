@@ -4,22 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="style.css">
   <title>Article preview component</title>
-
-
 </head>
 
 <body>
 
   <section class="card">
-
     <img src="/images/drawers.jpg" alt="image of drawers">
 
-    <div class="text-container">
+    <div class="card-content">
 
       <h1 class="principal-text">
         Shift the overall look and feel by adding these wonderful
@@ -30,27 +25,29 @@
         it felt slightly bare and uninviting. I’ve got some simple tips
         to help you make any room feel complete.
       </h2>
-    </div>
 
-    <div class="social-container">
-      <div class="user-container">
-        <p class="name">
-          Michelle Appleton
-        </p>
-        <p date>
-          28 Jun 2020
-        </p>
-      </div>
-      <div class="social-icons">
+      <div class="social-container">
+        <div class="user-container">
+          <img src="/images/avatar-michelle.jpg" alt="person image">
+          <p class="name">
+            Michelle Appleton
+          </p>
+          <p class="date">
+            28 Jun 2020
+          </p>
+        </div>
+        <!--       <div class="social-icons">
         <p class="share-text">
           Share
         </p>
         <img src="/images/icon-facebook.svg" alt="facebook icon">
         <img src="/images/icon-twitter.svg" alt="twitter icon">
         <img src="/images/icon-pinterest.svg" alt="pinterest icon">
+      </div> -->
+        <img class="share-icon" src="/images/icon-share.svg" alt="share icon">
       </div>
-      <img src="/images/icon-share.svg" alt="share icon">
     </div>
+
   </section>
 
 </body>
