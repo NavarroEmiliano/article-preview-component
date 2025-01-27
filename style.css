@@ -168,7 +168,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 0.75rem;
 }
 
 .hidden {
@@ -197,7 +196,7 @@ body {
         flex-direction: column;
         justify-content: space-around;
         gap: 0.75rem;
-        padding: 2.25rem;
+        padding: 2.15rem;
     }
 
     .card-content .principal-text {
