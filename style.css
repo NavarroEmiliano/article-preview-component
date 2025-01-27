@@ -91,7 +91,6 @@ body {
     block-size: 32px;
     border-radius: 50%;
     border: none;
-    background-color: var(--white);
 }
 
 .share-icon-container--active {
