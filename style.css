@@ -196,7 +196,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding-block: 1rem;
+        padding: 2rem;
     }
 
     .card-content .principal-text {
